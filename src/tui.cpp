@@ -44,8 +44,7 @@ public:
 
   string kind() override { return PLUGIN_NAME; }
 
-  return_type get_output(json &out,
-                         std::vector<unsigned char> *blob = nullptr) override {
+  return_type get_output(json &out, vector<unsigned char> *blob = nullptr) override {
     out.clear();
     if (!_agent_id.empty()) out["agent_id"] = _agent_id;
     _loop->RunOnce();
@@ -60,9 +59,9 @@ public:
     return return_type::retry;
   }
 
-  void set_params(void const *params) override {
+  void set_params(const json &params) override {
     Source::set_params(params);
-    _params.merge_patch(*(json *)params);
+    _params.merge_patch(params);
     
     _tui_screen.load_settings();
     _tui_screen.prepare_tui(_screen);
@@ -113,7 +112,7 @@ int main(int argc, char const *argv[]) {
   params["test"] = "value";
 
   // Set the parameters
-  plugin.set_params(&params);
+  plugin.set_params(params);
 
   // Process data
   while(true) {
