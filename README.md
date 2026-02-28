@@ -4,8 +4,7 @@ This is a Source plugin for [MADS](https://github.com/MADS-NET/MADS).
 
 It provides an interactive Teminal User Interface to send commands and markers to the MADS network. It is an easier to compile replacement for the QT6 MADSMetadata app.
 
-*Required MADS version: 1.0.3.*
-
+> This plugin has been updated for MADS v2
 
 ## Supported platforms
 
