@@ -3,3 +3,4 @@
 /*.json
 *copy.*
 /*.json
+!/mads_package.json
