@@ -1,4 +1,6 @@
-# tui plugin for MADS
+[![Build and Release](https://github.com/MADS-NET/tui_plugin/actions/workflows/release.yml/badge.svg)](https://github.com/MADS-NET/tui_plugin/actions/workflows/release.yml)
+
+# Terminal User Interface (TUI) plugin for MADS
 
 This is a Source plugin for [MADS](https://github.com/MADS-NET/MADS). 
 
