@@ -1,4 +1,5 @@
-[![Build and Release](https://github.com/MADS-NET/tui_plugin/actions/workflows/release.yml/badge.svg)](https://github.com/MADS-NET/tui_plugin/actions/workflows/release.yml) ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FMADS-NET%2F.github%2Fmain%2Fprofile%2Fpackages.json&query=%24.packages.%5B'tui.plugin'%5D.type&label=mads%20package)
+[![Build and Release](https://github.com/MADS-NET/tui_plugin/actions/workflows/release.yml/badge.svg)](https://github.com/MADS-NET/tui_plugin/actions/workflows/release.yml) ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FMADS-NET%2F.github%2Fmain%2Fprofile%2Fpackages.json&query=%24.packages.%5B'tui.plugin'%5D.type&logo=C%2B%2B&label=mads%20package&link=https%3A%2F%2Fmads-net.github.io%2Fguides%2Fpackage.html)
+
 
 
 # Terminal User Interface (TUI) plugin for MADS
