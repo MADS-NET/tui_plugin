@@ -4,3 +4,4 @@
 *copy.*
 /*.json
 !/mads_package.json
+*.bak

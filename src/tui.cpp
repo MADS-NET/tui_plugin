@@ -89,7 +89,7 @@ private:
                 |___/
 Enable the class as plugin
 */
-INSTALL_SOURCE_DRIVER(TuiPlugin, json)
+MADS_REGISTER_PLUGINS(TuiPlugin)
 
 
 /*
