@@ -5,3 +5,4 @@
 /*.json
 !/mads_package.json
 *.bak
+.DS_Store
